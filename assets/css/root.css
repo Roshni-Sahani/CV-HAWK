@@ -1,0 +1,75 @@
+:root {
+    /* font-size */
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 16px;
+    --fs-xxl: 28px;
+    --fs-2xl: 32px;
+    /* colors */
+    --black: #000;
+    --offwhite: #fafafa;
+    --orange: #f36a3e;
+    --bg-gry: #f9f9f9;
+    /* font-family */
+    ---ff-rubik: 'rubik';
+}
+
+.lh-154 {
+    line-height: 154.3%;
+}
+
+/* ------------font-family----------- */
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl);
+}
+
+/* -------colors------- */
+.bs-black {
+    color: var(--black);
+}
+
+.bs-offwhite {
+    color: var(--offwhite);
+}
+
+.bg-offwhite {
+    background-color: var(--offwhite);
+}
+
+.bs-orange {
+    color: var(--orange);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-gry {
+    background-color: var(--bg-gry);
+}
+
+/* ------font-family------ */
+.ff-rubik {
+    font-family: var(---ff-rubik);
+}
